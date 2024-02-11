@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "@Root/*": ["src/Root/*"],
+      "@Hooks/*": ["src/Hooks/*"],
+      "@Pages/*": ["src/Pages/*"],
+      "@Redux/*": ["src/Redux/*"],
+      "@Styles/*": ["src/Styles/*"],
+      "@Routes/*": ["src/Routes/*"],
+      "@Assets/*": ["src/Assets/*"],
+      "@Helpers/*": ["src/Helpers/*"],
+      "@UI/*": ["src/Components/UI/*"],
+      "@Providers/*": ["src/Providers/*"],
+      "@Constants/*": ["src/Constants/*"],
+      "@Middleware/*": ["src/Middleware/*"],
+      "@Components/*": ["src/Components/*"]
+    }
+  },
+  "include": ["src/**/*.js", "src/**/*.jsx"],
+  "exclude": ["node_modules"]
+}
