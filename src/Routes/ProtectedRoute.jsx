@@ -13,7 +13,7 @@ function ProtectedRoute({ children }) {
     }
   }, [user, navigate]);
 
-  return <>{children}</>;
+  return <>{user && children}</>;
 }
 
 ProtectedRoute.propTypes = {

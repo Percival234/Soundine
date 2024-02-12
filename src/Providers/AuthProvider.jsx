@@ -9,7 +9,7 @@ function AuthProvider({ children }) {
   const { user } = useSelector((state) => state.user);
   const { isFetching } = useCurrentQuery();
   if (isFetching && !user) return <Loading />;
-  return <>{user && children}</>;
+  return <>{children}</>;
 }
 
 AuthProvider.propTypes = {
