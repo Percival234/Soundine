@@ -10,7 +10,7 @@ export default function SidebarMobile() {
       onClick={handleMenuVisibility}
       className={`${
         menuVisibility ? 'bg-[#00000000] pointer-events-none' : 'bg-[#00000080]'
-      } fixed lg:hidden z-[200] top-0 right-0 left-0 bottom-0 duration-200`}>
+      }  lg:hidden z-[200] top-0 right-0 left-0 -bottom-20 duration-200`}>
       <div
         className={`${
           menuVisibility ? '-translate-x-full' : 'translate-x-0'
