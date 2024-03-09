@@ -29,13 +29,13 @@ function PlaylistCard({ data: { _id, name, image, tracks, followers } }) {
       <ImageCover
         src={`${SERVER_URL}/static/images/playlists/${image}`}
         alt={name}
-        className="brightness-[0.85]"
+        className="brightness-[0.90]"
       />
-      <div ref={cardRef} className="flex flex-col justify-between h-full p-1.5 truncate">
+      <div ref={cardRef} className="flex flex-col justify-between h-full p-1.5">
         <div className="flex justify-between items-start gap-1">
           <LinkScroll
             to={`/music/playlists/${_id}`}
-            className="font-medium md:font-bold text-sm md:text-lg whitespace-pre-line">
+            className="font-medium md:font-bold text-sm md:text-lg inline-block">
             {name}
           </LinkScroll>
           <LikeButton

@@ -2,9 +2,13 @@ import PropTypes from 'prop-types';
 
 import NavLinkScroll from '@UI/Links/NavLinkScroll';
 
+import { useAppContext } from '@Providers/AppProvider';
+
 function MenuLink({ to, Icon, text }) {
+  const { handleMenuVisibility } = useAppContext();
+
   return (
-    <li>
+    <li onClick={handleMenuVisibility}>
       <NavLinkScroll
         activeclass="active"
         className="flex gap-4 items-center py-2 pl-6 opacity-60 border-r-4 border-solid border-transparent text-lg whitespace-nowrap duration-200 hover:opacity-100 focus:opacity-100"

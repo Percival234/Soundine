@@ -18,7 +18,7 @@ export default function ThemeButton() {
 
   return (
     <ButtonRounded aria-label="change theme" onClick={toggleTheme}>
-      {theme === 'dark' ? <FiSun /> : <FiMoon />}
+      {theme === 'dark' ? <FiMoon /> : <FiSun />}
     </ButtonRounded>
   );
 }

@@ -1,4 +1,5 @@
-export const SERVER_URL = 'https://soundine-back.vercel.app';
+export const SERVER_URL = 'http://localhost:3500';
+// export const SERVER_URL = 'https://soundine-back.vercel.app';
 
 export const POP_COLLECTION_ID = '657aea9caf081e01fd571228';
 export const ROCK_COLLECTION_ID = '657ae7af818d11b8398293f0';
