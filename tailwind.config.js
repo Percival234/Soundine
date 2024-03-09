@@ -15,17 +15,10 @@ export default {
         bounceIn: {
           '100%': { transform: 'translate(0%, 0%)', opacity: 1 },
         },
-        jump: {
-          '0%': { height: '5px' },
-          '25%': { height: '20px' },
-          '50%': { height: '10px' },
-          '75%': { height: '20px' },
-          '100%': { height: '5px' },
-        },
         scale: {
-          '0%': { height: '10px' },
-          '50%': { height: '40px' },
-          '100%': { height: '10px' },
+          '0%': { transform: 'scale(0)' },
+          '50%': { transform: 'scale(1)' },
+          '100%': { transform: 'scale(0)' },
         },
       },
     },
