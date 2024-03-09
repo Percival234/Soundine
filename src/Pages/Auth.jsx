@@ -13,7 +13,7 @@ export default function Auth() {
 
   return (
     <div className="min-w-full flex justify-center items-center px-2 dark:bg-zinc-900">
-      <div className="md:grid md:grid-cols-2 overflow-hidden w-full sm:w-[500px] md:w-[900px] shadow-lg p-1.5 rounded-md bg-main">
+      <div className="md:grid md:grid-cols-2 overflow-hidden w-full sm:w-[500px] md:w-[900px] shadow-lg p-1.5 rounded-md bg-gradient-to-tr from-purple-800 to-main">
         <Outlet />
       </div>
     </div>
