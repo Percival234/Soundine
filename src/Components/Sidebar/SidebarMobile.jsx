@@ -24,9 +24,8 @@ export default function SidebarMobile() {
   }, [menuVisibility]);
 
   return (
-    <div className="fixed lg:hidden z-[200]">
+    <div onClick={handleMenuVisibility} className="fixed lg:hidden z-[200]">
       <div
-        onClick={handleMenuVisibility}
         className={`${
           menuVisibility ? 'bg-[#00000000] pointer-events-none' : 'bg-[#00000080]'
         }  z-[100] fixed top-0 right-0 left-0 -bottom-20 duration-200`}></div>

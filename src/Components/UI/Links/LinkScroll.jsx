@@ -9,7 +9,7 @@ function LinkScroll({ to, children, onClick, ...props }) {
     scrollToTop();
   };
   return (
-    <div onClick={handle} className="inline">
+    <div onClick={handle} className="inline-block">
       <Link to={to} {...props}>
         {children}
       </Link>
